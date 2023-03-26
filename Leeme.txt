@@ -1,0 +1,16 @@
+El archivo "automata.txt" es la forma de ingresar el autómata al programa.
+
+La primera línea se refiere a las transiciones, donde el primer carácter es 
+el estado de origen, el segundo carácter es el símbolo con el que cambia del 
+estado de origen al estado de destino, que es el tercer carácter. Cada transición 
+está separada por comas.
+
+La segunda línea se refiere a los estados de aceptación, separados por comas.
+
+La tercera línea se refiere al estado de inicio.
+
+La cuarta línea es para indicar al programa si acepta la palabra vacía o no. Si 
+el autómata acepta la cadena vacía, contendrá un 1, y en caso contrario, contendrá 
+un 0.
+
+Nota: El programa solo funciona con autómatas finitos deterministas
